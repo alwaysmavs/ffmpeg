@@ -1,0 +1,34 @@
+type: task_block
+title: typescript_lib_467f73
+icon: https://static.oomol.com/icons/typescript.png
+executor:
+  name: node_executor
+  entry: index.ts
+inputs_def:
+  - handle: video_source
+    serialize:
+      serializer: json
+      json_schema:
+        type: string
+        ui:widget: file
+  - handle: video_file
+    serialize:
+      serializer: json
+      json_schema:
+        type: string
+        ui:widget: dir
+  - handle: audio_file
+    serialize:
+      serializer: json
+      json_schema:
+        type: string
+        ui:widget: dir
+outputs_def:
+  - handle: video_address
+    serialize:
+      serializer: json
+      json_schema:
+        type: string
+  - handle: audio_address
+    serialize:
+      serializer: json

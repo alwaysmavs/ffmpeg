@@ -1,0 +1,16 @@
+nodes:
+  - task: ../../blocks/typescript_lib_467f73/block.oo.yaml
+    node_id: 7f73e131-0281-461b-99ca-58cb64d1a477
+    inputs_from:
+      - handle: in
+        cache:
+          initial_value: /oomol-storage/120eab71-9907-4e81-936d-1d30eaf21ddc.wav
+      - handle: video_source
+        cache:
+          initial_value: /oomol-storage/lol.mp4
+      - handle: video_file
+        cache:
+          initial_value: /oomol-storage/video
+      - handle: audio_file
+        cache:
+          initial_value: /oomol-storage/audio
